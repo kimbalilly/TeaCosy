@@ -10,15 +10,12 @@ body {
  margin: 0;
 }
 
-h2 {
-
+h2, h4 {
+  margin: 0;
+  padding: 10px;
 }
 
 h3 {
-
-}
-
-h4 {
 
 }
 
@@ -70,17 +67,43 @@ a.header-link:hover {
   color: #ff944d;
 }
 
+/* Main content section */
+
+.main {
+  padding-top: 69px;
+  margin: auto;
+}
+
 /* Our Mission */
 
-.mission {
+#mission-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto 25px auto;
 }
 
 .mission-copy {
-
+  background-color: black;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
 }
 
 /* Tea of the month */
+
+#tea-container {
+  display: flex;
+}
 
 .tea {
 
@@ -108,6 +131,10 @@ a.header-link:hover {
 
 /* Locations */
 
+#locations-container {
+  display: flex;
+}
+
 .locations {
 
 }
@@ -125,6 +152,10 @@ a.header-link:hover {
 }
 
 /* Footer */
+
+#footer-container {
+  display: flex;
+}
 
 .footer {
 
