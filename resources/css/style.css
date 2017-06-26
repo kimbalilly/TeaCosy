@@ -10,17 +10,9 @@ body {
  margin: 0;
 }
 
-h2, h4 {
+h2, h4, h3 {
   margin: 0;
   padding: 10px;
-}
-
-h3 {
-
-}
-
-p {
-
 }
 
 /* Header */
