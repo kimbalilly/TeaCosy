@@ -160,18 +160,13 @@ a.header-link:hover {
 
 /* Footer */
 
-#footer-container {
-  display: flex;
-}
-
-.footer {
-
-}
-
 .footer .contact {
-
+  display: block;
+  height: 200px;
+  padding-top: 20px;
 }
 
 .footer .copyright {
-
+  text-align: left;
+  padding-left: 20px;
 }
